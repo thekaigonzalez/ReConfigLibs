@@ -1,0 +1,11 @@
+{
+    "Name": "ReConfig Libs Website",
+    "Files": [
+        "accept.rcdoc",
+        "index.rcdoc",
+        "pass.rcdoc",
+        "quadro.rcdoc",
+        "osnix.rcdoc",
+        "docs.rcdoc"
+    ]
+}

@@ -1,0 +1,26 @@
+
+# includes
+std:lib("osnix");
+std:lib("pass");
+std:lib("docs");
+std:lib("quadro");
+std:lib("accept");
+
+std:println(math:sqrt(8));
+
+text = getpass:getpassword("Type pass: ")
+
+nix:sleep(1)
+
+accept:flush(3, True)
+
+std:println(text, "- dis u?");
+
+std:println("Username:", getpass:getuser(), "\nPassword:", text)
+
+doc = docs:funcdoc(docs:funcdoc)
+
+std:println(docs:funcdoc(std:println))
+
+std:println(doc)
+
